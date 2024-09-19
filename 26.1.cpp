@@ -1,18 +1,8 @@
-#include <iostream>
-#include <clocale>
-#include <cstdlib>
-#include <ctime>
-#include <Windows.h>
-#include <stdio.h>
-#include <cstdio>
-#include <cstring>
 #include "MyMath.h"
 using namespace std;
 
 int main()
 {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
 
     cout << "PI: " << MyMath::PI() << endl;
     cout << "+: " << MyMath::add(1, 1) << endl;
